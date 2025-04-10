@@ -32,7 +32,26 @@
   from {
     transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+#light{
+  color: #000000;
+  background-color: #ffffff;
+}
+
+#dark{
+  color: #ffffff;
+  background-color: #000;
+}
+
+#light button {
+  border: 1px solid #000000; /* Черная граница */
+  color: #000000;
+  background-color: #ffffff;
+}
+
+#dark button {
+  border: 1px solid #ffffff; /* Белая граница */
+  color: #ffffff;
+  background-color: #000;
 }
